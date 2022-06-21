@@ -1,0 +1,53 @@
+wait(20)
+
+local gmae = workspace.Queue.Original.Interactions
+
+for  i, x in pairs(gmae:GetChildren()) do
+if x.Name == "Summon" then
+
+print("Ur in lobby")
+
+wait(3)
+	local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+	char.CFrame = CFrame.new(-688, 62, -917)
+	wait(2)
+	char.CFrame = CFrame.new(-160, 1390, 781)
+wait(0.2)
+	char.CFrame = CFrame.new(-123, 1390, 781)
+wait(0.2)
+	char.CFrame = CFrame.new(-107, 1390, 791)
+wait(0.2)
+	char.CFrame = CFrame.new(-96, 1390, 807)
+wait(0.2)
+	char.CFrame = CFrame.new(-96, 1390, 845)
+wait(0.2)
+	char.CFrame = CFrame.new(-106, 1390, 862)
+wait(0.2)
+	char.CFrame = CFrame.new(-123, 1390, 873)
+wait(0.2)
+	char.CFrame = CFrame.new(-161, 1390, 873)
+wait(0.2)
+	char.CFrame = CFrame.new(-176, 1390, 863)
+wait(0.2)
+	char.CFrame = CFrame.new(-187, 1390, 847)
+wait(0.2)
+	char.CFrame = CFrame.new(-188, 1391, 807)
+wait(0.2)
+	char.CFrame = CFrame.new(-177, 1390, 791)
+
+wait(1)
+
+local A_1 = "InfLevel"
+local A_2 = "-1.7"
+local A_3 = false
+local Event = game:GetService("ReplicatedStorage").Remotes.Input
+Event:FireServer(A_1, A_2, A_3)
+
+wait(1)
+ 
+local A_1 = "Start"
+local Event = game:GetService("ReplicatedStorage").Remotes.Input
+Event:FireServer(A_1)
+
+end
+end
