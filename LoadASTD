@@ -1,0 +1,4 @@
+--Load
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Oak4Blood/ASTD/main/Jenos",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Oak4Blood/ASTD/main/ASTDLW1",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Oak4Blood/ASTD/main/Uru",true))()
