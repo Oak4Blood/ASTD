@@ -1,0 +1,44 @@
+wait(35)
+local gmaae = workspace.TowerHP
+
+for  i, v in pairs(gmaae:GetChildren()) do
+if v.Name == "MAXHP" then
+
+print("Ur in game")
+
+local A_1 = "VoteGameMode"
+wait(5)
+
+local A_2 = "Extreme"
+local Event = game:GetService("ReplicatedStorage").Remotes.Input
+Event:FireServer(A_1, A_2)
+
+wait(1)
+ 
+local A_1 = "Summon"
+local A_2 = 
+{
+	["Rotation"] = 0, 
+	["cframe"] = CFrame.new(26.3926773, 152.503769, -84.6803284, 1, 0, 0, 0, 1, 0, 0, 0, 1), 
+	["Unit"] = "Genos [Overdrive]"
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.Input
+Event:FireServer(A_1, A_2)
+end
+end
+
+while true do
+
+wait()
+local Wave = game:GetService("ReplicatedStorage").WaveValue.Value
+
+if Wave == 8 then do
+ 
+local A_1 = "Sell"
+local A_2 = game:GetService("Workspace").Unit["Genos [Overdrive]"]
+local Event = game:GetService("ReplicatedStorage").Remotes.Input
+Event:FireServer(A_1, A_2)
+
+end
+end
+end
