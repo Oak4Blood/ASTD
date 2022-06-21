@@ -18,7 +18,7 @@ wait()
 
 local Wave = game:GetService("ReplicatedStorage").WaveValue.Value
 
-if Wave == 3 then do
+if Wave == 2 then do
  
 local A_1 = "Summon"
 local A_2 = 
